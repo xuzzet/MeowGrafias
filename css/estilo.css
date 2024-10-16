@@ -40,7 +40,7 @@ header h1{
     height: 340px;
     border: 10px solid #fff;
     box-shadow: 5px 5px 5px #0006;
-    transition: transform 1s linear;
+    transition: transform 0.3s linear;
 
 }
 .items-galeria img{
