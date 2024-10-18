@@ -4,6 +4,19 @@ body{
     background: -webkit-linear-gradient(162deg, rgba(42,28,56,1) 30%, rgba(42,28,56,1) 47%, rgba(255,255,255,1) 100%);
     background: linear-gradient(162deg, rgba(42,28,56,1) 30%, rgba(42,28,56,1) 47%, rgba(255,255,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a1c38",endColorstr="#ffffff",GradientType=1);
+    font-size: 16px;
+}
+
+section {
+    display: flex;
+    flex-direction: column; 
+}
+
+@media (min-width: 768px) {
+    section {
+        flex-direction: row; 
+        flex-wrap: wrap;
+    }
 }
 
 header{
